@@ -31,9 +31,14 @@ group-by=category
 [app-name="Element"]
 on-notify=exec ~/.config/scripts/matrix.sh
 
-[app-name="Firefox"]
-on-button-left=exec ~/.config/scripts/firefox-mako.sh
+# [app-name="Firefox"]
+# on-button-left=exec ~/.config/scripts/firefox-mako.sh
 # on-button-left=invoke-default-action
+
+[app-name="Chromium"]
+on-button-left=exec ~/.config/scripts/chrome-mako.sh
+# on-button-left=invoke-default-action
+
 
 [desktop-entry="im.riot.Riot"]
 on-button-left=exec ~/.config/scripts/matrix.sh
